@@ -192,6 +192,7 @@ classDiagram
     }
     class C {
       +__init__()
+    }
 ```
 
 ```python
