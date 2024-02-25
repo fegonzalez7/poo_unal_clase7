@@ -192,7 +192,6 @@ classDiagram
     }
     class C {
       +__init__()
-    }
 ```
 
 ```python
@@ -217,3 +216,31 @@ class C(A, B):
 ```
 
 **Ambigüedad en la Resolución de Métodos:** Si varias superclases definen el mismo método, puede ser ambiguo cuál método hereda la subclase.
+
+**Ejercicio:**
+1. Cree la clase Rectangle.
+```mermaid
+classDiagram
+    class Rectangle {
+      +float width
+      +float height
+      +Point center
+      +__init__(self, method)
+      +compute_area()
+      +computer_perimeter()
+    }
+```
+ - The rectangle should be inicialice using any of these 3 methods:
+    + Method 1: Bottom-left corner(Point) + width and height
+    + Method 2: Center(Point) + width and height
+    + Method 3: Two opposite corners (Points) e.g. Bottom-left and Upper-right
+
+ - *width*, *height*, center: Instance attributes
+ - compute_area(): should return the area of the rectangle
+ - compute_perimeter(): should return the perimeter of the rectangle
+
+2. Create a class Square() that inherited the required attributes and methods from Rectangle.
+
+3. Create a method called compute_interference_point(Point) that returns if a point is inside or a rectangle.
+
+4. **Optional:** Define a method called compute_interference_line() that return if a line or part of it is inside of a rectangle.
