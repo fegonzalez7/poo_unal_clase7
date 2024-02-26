@@ -167,9 +167,9 @@ class SMSSender:
 class NotificationManager(EmailSender, SMSSender):
     pass
 
-manager = NotificationManager():
-manager.EmailSender()
-manager.SMSSender()
+manager = NotificationManager()
+manager.send_email(message = "Cordial saludo. ¡Haga su trabajo!")
+manager.send_sms(message = "¡Envía amor al 777 en este Día de San Valentín!")
 ```
 
 #### Problemas
@@ -242,6 +242,6 @@ classDiagram
 
 2. Create a class Square() that inherited the required attributes and methods from Rectangle.
 
-3. Create a method called compute_interference_point(Point) that returns if a point is inside or a rectangle.
+3. Create a method called compute_interference_point(Point) that returns if a point is inside or outside a rectangle.
 
 4. **Optional:** Define a method called compute_interference_line() that return if a line or part of it is inside of a rectangle.
