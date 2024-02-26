@@ -167,9 +167,9 @@ class SMSSender:
 class NotificationManager(EmailSender, SMSSender):
     pass
 
-manager = NotificationManager():
-manager.EmailSender()
-manager.SMSSender()
+manager = NotificationManager()
+manager.send_email("Mail") # Here you can change the message in the e-mail
+manager.send_sms("SMS") # Here yo can change the text in the sms
 ```
 
 #### Problemas
