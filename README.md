@@ -300,7 +300,7 @@ Los atributos pueden ser sobrescritos dependiendo del orden de inicialización.
 - [Clases - ref de Python](https://docs.python.org/3/tutorial/classes.html) 
 - [Clases y objetos en Python](https://realpython.com/python3-object-oriented-programming/) 
 - [POO principles in Python - Super Post](https://medium.com/@aserdargun/advanced-oop-in-python-a5f6130da291) 
-- [Mastering Multiple Inheritance in Python](https://mysteryweevil.medium.com/mastering-multiple-inheritance-in-python-a-step-by-step-guide-e6772181bb76) 
+- [Multiple Inheritance in Python](https://www.geeksforgeeks.org/python/multiple-inheritance-in-python/) 
 - [Python Classes and the Power of Multiple Inheritance](https://blog.stackademic.com/python-classes-and-the-power-of-multiple-inheritance-5a551e124603)
 - [Inheritance in Python - by an india Guy](https://medium.com/@gauravverma.career/inheritance-in-python-a7aaf1d41971)
 
